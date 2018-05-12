@@ -78,8 +78,8 @@
 	<ctl name="DSP5 Aux 2" value="AIF4RX1" />
 	<ctl name="DSP5 Aux 3" value="AIF4RX2" />
 
-	<ctl name="DSP5L Input 1 Volume" value="26" />
-	<ctl name="DSP5L Input 2 Volume" value="26" />
+	<ctl name="DSP5L Input 1 Volume" value="28.6" />
+	<ctl name="DSP5L Input 2 Volume" value="28.6" />
 
 	<ctl name="HPOUT1L Impedance Volume" value="0" />
 	<ctl name="HPOUT1R Impedance Volume" value="0" />
@@ -95,29 +95,29 @@
 
 	<!-- EQs Filter setting -->
 	<ctl name="EQ1 Coefficients" value="0 0 15 209 3 253 0 188 30 244 241 7 4 12 4 18 29 30 242 193 4 10 10 232 24 73 246 214 4 10 27 18 6 216 5 182 64 0 0 0" />
-	<ctl name="EQ1 B1 Volume" value="12" />
-	<ctl name="EQ1 B2 Volume" value="12" />
-	<ctl name="EQ1 B3 Volume" value="12" />
-	<ctl name="EQ1 B4 Volume" value="12" />
-	<ctl name="EQ1 B5 Volume" value="12" />
+	<ctl name="EQ1 B1 Volume" value="13.2" />
+	<ctl name="EQ1 B2 Volume" value="13.2" />
+	<ctl name="EQ1 B3 Volume" value="13.2" />
+	<ctl name="EQ1 B4 Volume" value="13.2" />
+	<ctl name="EQ1 B5 Volume" value="13.2" />
 	<ctl name="EQ2 Coefficients" value="0 0 14 252 3 255 4 16 20 219 249 109 4 10 37 84 25 146 242 231 4 10 11 127 19 112 248 160 4 10 34 40 6 161 5 168 64 0 0 0" />
-	<ctl name="EQ2 B1 Volume" value="12" />
-	<ctl name="EQ2 B2 Volume" value="12" />
-	<ctl name="EQ2 B3 Volume" value="7" />
-	<ctl name="EQ2 B4 Volume" value="8" />
-	<ctl name="EQ2 B5 Volume" value="12" />
+	<ctl name="EQ2 B1 Volume" value="13.2" />
+	<ctl name="EQ2 B2 Volume" value="13.2" />
+	<ctl name="EQ2 B3 Volume" value="7.7" />
+	<ctl name="EQ2 B4 Volume" value="8.8" />
+	<ctl name="EQ2 B5 Volume" value="13.2" />
 	<ctl name="EQ3 Coefficients" value="0 0 14 252 3 255 4 16 22 148 248 40 4 10 32 77 25 146 242 231 4 10 11 127 18 140 249 19 4 10 35 240 6 161 5 168 64 0 0 0 " />
-	<ctl name="EQ3 B1 Volume" value="12" />
-	<ctl name="EQ3 B2 Volume" value="12" />
-	<ctl name="EQ3 B3 Volume" value="12" />
-	<ctl name="EQ3 B4 Volume" value="7" />
-	<ctl name="EQ3 B5 Volume" value="7" />
+	<ctl name="EQ3 B1 Volume" value="13.2" />
+	<ctl name="EQ3 B2 Volume" value="13.2" />
+	<ctl name="EQ3 B3 Volume" value="13.2" />
+	<ctl name="EQ3 B4 Volume" value="7.7" />
+	<ctl name="EQ3 B5 Volume" value="7.7" />
 	<ctl name="EQ4 Coefficients" value="0 0 15 209 3 253 0 188 30 244 241 7 4 12 4 18 29 30 242 193 4 10 10 232 24 73 246 214 4 10 27 18 6 216 5 182 64 0 0 0" />
-	<ctl name="EQ4 B1 Volume" value="12" />
-	<ctl name="EQ4 B2 Volume" value="12" />
-	<ctl name="EQ4 B3 Volume" value="12" />
-	<ctl name="EQ4 B4 Volume" value="12" />
-	<ctl name="EQ4 B5 Volume" value="12" />
+	<ctl name="EQ4 B1 Volume" value="13.2" />
+	<ctl name="EQ4 B2 Volume" value="13.2" />
+	<ctl name="EQ4 B3 Volume" value="13.2" />
+	<ctl name="EQ4 B4 Volume" value="13.2" />
+	<ctl name="EQ4 B5 Volume" value="13.2" />
 
 	<!-- Channel information -->
 	<!-- main_mic : Left -->
@@ -197,10 +197,10 @@
 	</path>
 
 	<path name="unmute-speaker">
-		<ctl name="DSP5L Input 1 Volume" value="26" />
-		<ctl name="DSP5L Input 2 Volume" value="26" />
-		<ctl name="AIF4TX1 Input 1 Volume" value="32" />
-		<ctl name="AIF4TX2 Input 1 Volume" value="32" />
+		<ctl name="DSP5L Input 1 Volume" value="28.6" />
+		<ctl name="DSP5L Input 2 Volume" value="28.6" />
+		<ctl name="AIF4TX1 Input 1 Volume" value="35.2" />
+		<ctl name="AIF4TX2 Input 1 Volume" value="35.2" />
 	</path>
 
 	<!-- Output stage -->
@@ -228,6 +228,9 @@
 		<ctl name="DSP5 Aux 3" value="AIF4RX2" />
 		<ctl name="VI SENSING Switch" value="1" />
 		<ctl name="SPK Switch" value="1" />
+		<ctl name="HPOUT3L Input 1" value="AIF1RX1" />
+		<ctl name="HPOUT3L Input 2" value="AIF1RX2" />
+		<ctl name="RCV Switch" value="1" />
 	</path>
 
 	<path name="media-headset">
@@ -753,8 +756,8 @@
 		<ctl name="HPOUT3R Input 3 Volume" value="0" />
 		<ctl name="HPOUT3L Input 3" value="ISRC2INT3" />
 		<ctl name="HPOUT3R Input 3" value="ISRC2INT3" />
-		<ctl name="HPOUT3L Input 3 Volume" value="32" />
-		<ctl name="HPOUT3R Input 3 Volume" value="32" />
+		<ctl name="HPOUT3L Input 3 Volume" value="35.2" />
+		<ctl name="HPOUT3R Input 3 Volume" value="35.2" />
 		<ctl name="HPOUT3L Input 2" value="None" />
 		<ctl name="HPOUT3R Input 2" value="None" />
 		<!-- Call recording route -->
@@ -762,8 +765,8 @@
 		<ctl name="AIF1TX1 Input 2" value="LHPF2" />
 		<ctl name="AIF1TX2 Input 2" value="LHPF2" />
 		<!-- default volume -->
-		<ctl name="HPOUT3L Input 1 Volume" value="32" />
-		<ctl name="HPOUT3R Input 1 Volume" value="32" />
+		<ctl name="HPOUT3L Input 1 Volume" value="35.2" />
+		<ctl name="HPOUT3R Input 1 Volume" value="35.2" />
 		<ctl name="HPOUT3L Input 1" value="AIF1RX1" />
 		<ctl name="HPOUT3R Input 1" value="AIF1RX2" />
 		<ctl name="RCV Switch" value="1" />
@@ -780,7 +783,7 @@
 		<ctl name="LHPF4 Input 1" value="AIF1RX1" />
 		<ctl name="LHPF4 Input 3 Volume" value="0" />
 		<ctl name="LHPF4 Input 3" value="ISRC2INT3" />
-		<ctl name="LHPF4 Input 3 Volume" value="32" />
+		<ctl name="LHPF4 Input 3 Volume" value="35.2" />
 		<ctl name="LHPF4 Input 2" value="None" />
 		<ctl name="ASRC2IN1L Input" value="LHPF4" />
 		<ctl name="ASRC2IN1R Input" value="LHPF4" />
@@ -797,10 +800,10 @@
 		<ctl name="AIF1TX1 Input 2" value="LHPF2" />
 		<ctl name="AIF1TX2 Input 2" value="LHPF2" />
 		<!-- default volume -->
-		<ctl name="DSP5L Input 1 Volume" value="26" />
-		<ctl name="DSP5L Input 2 Volume" value="26" />
-		<ctl name="AIF4TX1 Input 1 Volume" value="32" />
-		<ctl name="AIF4TX2 Input 1 Volume" value="32" />
+		<ctl name="DSP5L Input 1 Volume" value="28.6" />
+		<ctl name="DSP5L Input 2 Volume" value="28.6" />
+		<ctl name="AIF4TX1 Input 1 Volume" value="35.2" />
+		<ctl name="AIF4TX2 Input 1 Volume" value="35.2" />
 	</path>
 
 	<path name="incall_default-headset">
@@ -818,10 +821,10 @@
 		<ctl name="AIF1TX2 Input 2" value="LHPF2" />
 		<!-- default volume -->
 		<ctl name="Noise Gate Switch" value="0" />
-		<ctl name="HPOUT1L Impedance Volume" value="113" />
-		<ctl name="HPOUT1R Impedance Volume" value="113" />
-		<ctl name="HPOUT1L Input 1 Volume" value="32" />
-		<ctl name="HPOUT1R Input 1 Volume" value="32" />
+		<ctl name="HPOUT1L Impedance Volume" value="124.3" />
+		<ctl name="HPOUT1R Impedance Volume" value="124.3" />
+		<ctl name="HPOUT1L Input 1 Volume" value="35.2" />
+		<ctl name="HPOUT1R Input 1 Volume" value="35.2" />
 	</path>
 
 	<path name="incall_default-headphone">
@@ -842,10 +845,10 @@
 		<ctl name="ISRC2DEC4 Input" value="AIF1RX2" />
 		<ctl name="ASRC1IN2L Input" value="AIF2RX1" />
 		<ctl name="ASRC1IN2R Input" value="AIF2RX2" />
-		<ctl name="AIF3TX1 Input 1 Volume" value="32" />
-		<ctl name="AIF3TX2 Input 1 Volume" value="32" />
-		<ctl name="AIF3TX1 Input 2 Volume" value="32" />
-		<ctl name="AIF3TX2 Input 2 Volume" value="32" />
+		<ctl name="AIF3TX1 Input 1 Volume" value="35.2" />
+		<ctl name="AIF3TX2 Input 1 Volume" value="35.2" />
+		<ctl name="AIF3TX1 Input 2 Volume" value="35.2" />
+		<ctl name="AIF3TX2 Input 2 Volume" value="35.2" />
 		<!-- Call recording route -->
 		<ctl name="LHPF2 Input 1" value="ASRC1IN2L" />
 		<ctl name="AIF1TX1 Input 2" value="LHPF2" />
